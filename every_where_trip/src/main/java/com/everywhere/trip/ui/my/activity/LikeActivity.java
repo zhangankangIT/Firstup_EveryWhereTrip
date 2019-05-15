@@ -77,6 +77,9 @@ public class LikeActivity extends BaseActivity<LikeView, LikePresenter> implemen
 
     @Override
     protected void initListener() {
+        
+        int c=0;
+        int d=1;
         adapter.setOnItemClickListener(new RecLikeAdapter.OnItemClickListener() {
             @Override
             public void onClick(View view, int position) {
